@@ -58,4 +58,4 @@ console.log(Math.floor((Math.random()*10) + 1));
 const Min = 10;
 const Max = 20;
 
-console.log(Math.floor((Math.random()*(Max-Min+1)) + Min));
+console.log(Math.floor((Math.random()*(Max-Min+1)) + Min));         //Interview
