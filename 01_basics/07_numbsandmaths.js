@@ -43,4 +43,19 @@ console.log(hundreds1.toLocaleString('en-IN'));
 
 console.log(Math);
 console.log(Math.abs(-4));
+console.log(Math.round(4.6));
+console.log(Math.ceil(5.1));
+console.log(Math.floor(9.1));
 
+console.log(Math.min(2, 6, 9));
+console.log(Math.max(2, 6, 9));
+
+console.log(Math.random());
+console.log(Math.random()*10 + 1);
+console.log((Math.random()*10) + 1);
+console.log(Math.floor((Math.random()*10) + 1));
+
+const Min = 10;
+const Max = 20;
+
+console.log(Math.floor((Math.random()*(Max-Min+1)) + Min));
